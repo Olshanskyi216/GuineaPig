@@ -1,0 +1,12 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1779991651
+icon.svg::CompressedTexture2D::1790880795757653::1779545496::1779991652::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1779546655::0::1::::<><><>0<>0<><>::
+::res://scenes/::1779991549
+Controller.tscn::PackedScene::322999187182571128::1779990962::0::1::::<><><>0<>0<><>::uid://daqbtt85d5hbn::::res://scripts/controller.gd
+ground.tscn::PackedScene::6576088841770823923::1779991455::0::1::::<><><>0<>0<><>::uid://4q335xxs2p::::res://icon.svg
+level.tscn::PackedScene::2748825627457095805::1779991331::0::1::::<><><>0<>0<><>::uid://b21p5kcx07c4q::::res://scenes/playable_character.tscn<>uid://eup0qlj1akvg::::res://scenes/Controller.tscn<>uid://c0xrhte80k3ad::::res://scenes/ground.tscn
+playable_character.tscn::PackedScene::4336158141636967906::1779991549::0::1::::<><><>0<>0<><>::uid://b72qeirkwqpub::::res://scripts/playable_character.gd<>uid://4q335xxs2p::::res://icon.svg
+::res://scripts/::1779991549
+controller.gd::GDScript::7192387792511676523::1779990944::0::1::::<>Node2D<><>0<>0<><>::
+playable_character.gd::GDScript::4689180941462511045::1779991549::0::1::::<>CharacterBody2D<><>0<>0<><>::

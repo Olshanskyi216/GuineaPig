@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bffs0yqr2jdrx"]
+
+[ext_resource type="PackedScene" uid="uid://b21p5kcx07c4q" path="res://scenes/playable_character.tscn" id="1_vonw3"]
+[ext_resource type="PackedScene" uid="uid://eup0qlj1akvg" path="res://scenes/Controller.tscn" id="2_oi3di"]
+[ext_resource type="PackedScene" uid="uid://c0xrhte80k3ad" path="res://scenes/ground.tscn" id="3_w8frs"]
+
+[node name="Level" type="Node2D" unique_id=92139245]
+
+[node name="PlayableCharacter" parent="." unique_id=1052404691 instance=ExtResource("1_vonw3")]
+position = Vector2(564, 302)
+
+[node name="PlayerController" parent="." unique_id=1606019513 node_paths=PackedStringArray("player") instance=ExtResource("2_oi3di")]
+position = Vector2(-98, 38)
+player = NodePath("../PlayableCharacter")
+
+[node name="ground" parent="." unique_id=2062242765 instance=ExtResource("3_w8frs")]
+position = Vector2(588, 587)
+scale = Vector2(9.84375, 1)
